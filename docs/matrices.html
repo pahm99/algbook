@@ -144,10 +144,50 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="vectores-y-matrices"><a class="header" href="#vectores-y-matrices">Vectores y Matrices</a></h1>
-<p>$$
-\frac{1}{2}
+                        <h1 id="vectores"><a class="header" href="#vectores">Vectores</a></h1>
+<p>Dados los deseos de Sir William Hamilton de encontrar una forma de representar una forma ordenada de datos en un plano define el concepto del vector compuestos a lo que denomino &quot;cuartiniones&quot;</p>
+<p>El estudio de los vectores y las matrices son la parte medular del álgebra linea- En la actualidad mucha de las ramas de la física  se representan mediante el lenguaje de los vectores.</p>
+<h3 id="componente"><a class="header" href="#componente">Componente</a></h3>
+<p>A cada uno de los elementos de matriz se le denomina componente,  y se da ubicada por ubicación ordenada $ c_i$</p>
+<h2 id="vector-renglón"><a class="header" href="#vector-renglón">Vector renglón</a></h2>
+<p>Un vector de $ n $ componentes se define como un conjunto ordenado de $ n $ números escritos como:
+$$
+\begin{bmatrix}
+x_1,x_2,\cdots,x_n
+\end{bmatrix}
 $$</p>
+<h2 id="vector-columna"><a class="header" href="#vector-columna">Vector Columna</a></h2>
+<p>Un vector columna de $ n $ componentes es un conjunto ordenado de $ n $ números escritos como 
+$$
+\begin{bmatrix}
+x_1 \
+x_2 \
+\vdots \
+x_n</p>
+<p>\end{bmatrix}
+$$</p>
+<h2 id="vector-cero"><a class="header" href="#vector-cero">Vector Cero</a></h2>
+<p>Si todos los elementos del vector, son cero se le denomina <em>vector cero</em>
+$$
+\begin{bmatrix}
+0  &amp; 0 &amp; 0 &amp; 0
+\end{bmatrix}
+$$</p>
+<h2 id="vector-ordenado"><a class="header" href="#vector-ordenado">Vector ordenado</a></h2>
+<p>El orden en el que se encuentres dispuestos los elementos del vector es importante, dado que, dos vectores con las mismas componentes en diferente orden no son iguales
+$$
+\begin{bmatrix}
+1 &amp; 2 &amp; 3 &amp; 4 &amp; 5
+\end{bmatrix}
+\space \space !=
+\begin{bmatrix}
+5 &amp; 4 &amp; 3 &amp; 2 &amp; 1
+\end{bmatrix}
+$$</p>
+<h2 id="valores-escalares"><a class="header" href="#valores-escalares">Valores Escalares</a></h2>
+<p>Todos los componentes son valores escalares, es decir pertenecen a los reales $\mathbb{R}$  y los complejos $\mathbb{C}$, centrando en el primero</p>
+<h2 id="matriz-y-vector"><a class="header" href="#matriz-y-vector">Matriz y vector</a></h2>
+<p>En general cuando hablamos de vector, este es un caso especial de matriz.</p>
 
                     </main>
 
@@ -166,22 +206,6 @@ $$</p>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 
