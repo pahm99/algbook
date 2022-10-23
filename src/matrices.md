@@ -25,7 +25,6 @@ $$
 	x_2 \\
 	\vdots \\
 	x_n
-	
  \end{bmatrix}
 $$
 
