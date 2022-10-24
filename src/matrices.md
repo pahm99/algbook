@@ -1,62 +1,90 @@
-# Vectores
-Dados los deseos de Sir William Hamilton de encontrar una forma de representar una forma ordenada de datos en un plano define el concepto del vector compuestos a lo que denomino "cuartiniones"
+# Matrices
 
-El estudio de los vectores y las matrices son la parte medular del álgebra linea- En la actualidad mucha de las ramas de la física  se representan mediante el lenguaje de los vectores.
+una matriz $A$ de $m×n$ es un _arreglo_ rectangular de $mn$ números dispuestos en $m$ columnas y $n$ columnas
 
-### Componente
+$$m = renglones,\space n = columnas$$
 
-A cada uno de los elementos de matriz se le denomina componente,  y se da ubicada por ubicación ordenada $ c_i$
 
-## Vector renglón
-
-Un vector de $ n $ componentes se define como un conjunto ordenado de $ n $ números escritos como:
 $$
-\begin{bmatrix}
-x_1,x_2,\cdots,x_n
+A = \begin{bmatrix}
+a_{11} & a_{12} & \cdots & a_{1n} \\
+a_{21} & a_{22} & \cdots & a_{2n} \\
+\vdots \\
+a_{mi} & a_{m2} & \cdots & a_{mn}
+\end{bmatrix}
+$$
+las componente $ij$ se denota como $a_{ij}$ y es numero que aparece en renglón $i$ y al columna $j$ de la matriz $A$. La matriz también puede ser escrita como
+$$
+A = a_{ij}
+$$
+
+## Matriz Cuadrada
+
+Si una matriz $m\times n$ donde $m = n$, se le denomina matriz cuadrada.
+$$
+Ejemplo \\
+a_{44} = \begin{bmatrix}
+1 & 2 & 3 & 4 \\
+5 & 6 & 7 & 8 \\
+9 & 10 & 11 & 12 \\
+13 & 14 & 15 & 16 \\
 \end{bmatrix}
 $$
 
-## Vector Columna
+## Matriz Cero
 
-Un vector columna de $ n $ componentes es un conjunto ordenado de $ n $ números escritos como 
+Si todos las componentes de la matriz son cero, se denomina matriz cero
 $$
 \begin{bmatrix}
-	x_1 \\
-	x_2 \\
-	\vdots \\
-	x_n
- \end{bmatrix}
-$$
-
-## Vector Cero
-
-Si todos los elementos del vector, son cero se le denomina *vector cero*
-$$
-\begin{bmatrix}
-0  & 0 & 0 & 0
+0 & 0 & 0\\
+0 & 0 & 0
 \end{bmatrix}
 $$
 
+## Igualdad de Matrices
 
+Dos Matrices $A = (a_{ij})$ y $B = (b_{ij})$ son iguales si
 
+1. Son del mismo tamaño, es decir que el numero de renglones y columnas de $A$ son igual al mismo numero de renglones y columnas de $B$
+2. La componentes son iguales, es decir que para cada componente de $A$ en $a_{ij}$ es es igual en $b_{ij}$
 
-## Vector ordenado
+### Iguales
 
-El orden en el que se encuentres dispuestos los elementos del vector es importante, dado que, dos vectores con las mismas componentes en diferente orden no son iguales
 $$
 \begin{bmatrix}
-1 & 2 & 3 & 4 & 5
-\end{bmatrix}
-\space \space !=
+5 & 3 & 7 \\
+2 & 4 & 8
+\end{bmatrix} =
 \begin{bmatrix}
-5 & 4 & 3 & 2 & 1
+5 & 3 & 7 \\
+2 & 4 & 8
 \end{bmatrix}
 $$
 
-## Valores Escalares
+### No iguales
 
-Todos los componentes son valores escalares, es decir pertenecen a los reales $\mathbb{R}$  y los complejos $\mathbb{C}$, centrando en el primero
+$$
+\\ \begin{bmatrix}
+5 & 3 & 7 \\
+2 & 4 & 8
+\end{bmatrix} =
+\begin{bmatrix}
+5 & 3 & 10 \\
+2 & 4 & 8
+\end{bmatrix}\\
+$$
 
-## Matriz y vector
+$$
+\\ \begin{bmatrix}
+5 & 3 & 7 \\
+2 & 4 & 8
+\end{bmatrix} =
+\begin{bmatrix}
+5 & 3 & 10 \\
+2 & 4 & 8 \\
+11 & 16 & 12
+\end{bmatrix}\\
+$$
 
-En general cuando hablamos de vector, este es un caso especial de matriz.
+
+
