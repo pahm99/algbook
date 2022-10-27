@@ -3,19 +3,22 @@
 ## Producto Escalar
 
 Sean dos vectores
-
-
 $$
-a = \begin{bmatrix}
-a_{1} & a_{2} & \cdots & a_{n} \\
-\end{bmatrix}\ , \
-b=\begin{bmatrix}
+a = 
+\begin{bmatrix}
+a_{1} & a_{2} & \cdots & a_{n}
+\end{bmatrix}
+b = 
+\begin{bmatrix}
 b_{1}\\
 b_{2}\\
 \vdots \\
-b_{n}\\
+b_{n}
 \end{bmatrix}
 $$
+
+Nota: como podemos ver al multiplicar un vector renglon por un escalar , se tiene como resultado un vector columna ya que este tipo de operaciones nos otorgan una transpuesta de la matriz, que se en otro tema.
+
 Entonces el producto escalar de $a$ y $b$  denotado por $a\cdot b$ esta dado por la siguiente expresión:
 $$
 a\cdot b = a_{1}b_{1} + a_{2}b_{2} + \cdots + a_{n}b_{n}
@@ -50,6 +53,43 @@ $$
 $$
 
 ## Producto de matrices
+
+Para poder realizar el producto de matrices se tiene que considerar que el numero de coumnas $A$ debe ser igual el numero de renglones de $B$, dado que se esto no se cumple, significa que no tienen el mismo numero de componentes por lo que son incompatibles
+$$
+A \space dada \space por \space m \times x \\
+B \space dada \space por \space n \times p \\
+x = n
+$$
+De lo contrario es posible realizar la multiplicación
+
+Antes de pasar a la representacion de una combinacion linea, podemos realizar la multiplicación de una matriz multiplicando cada renglon de $A$ por cada una de las columnas de $B$, lo que nos otorga las nuevas componentes, que son coladas por renglones
+$$
+BA = 
+\begin{bmatrix}
+3 & -2 \\
+5 & 6 
+\end{bmatrix}
+\begin{bmatrix}
+1 & 3 \\
+-2 & 4
+\end{bmatrix}
+=
+\begin{bmatrix}
+(3 \cdot 1) + (-2 \cdot -2 ) & (3 \cdot 3) + (-2 \cdot 4)\\
+(5 \cdot 1) +(6 \cdot -2) & (5 \cdot 3) + (6 \cdot 4)
+\end{bmatrix}
+=
+\begin{bmatrix}
+3+4 & 9-8 \\
+5-12 & 15+24
+\end{bmatrix}
+\\ \implies 
+\begin{bmatrix}
+7 & 1 \\
+-7 & 39
+\end{bmatrix}
+$$
+
 
 Sea $A = (a_{ij})$ una matriz $m \times n$ y $B = (b_{ij})$ una matriz $n \times p$. Entonces el producto de $A$ y $B$ es una matriz $m \times p$, $C = c_{ij}$  en donde $c_{ij} = (renglon\ i\ de\ A)(columna\ j\ de\ B)$ 
 

@@ -81,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="vectores.html" class="active"><strong aria-hidden="true">1.</strong> Vectores y Matrices</a></li><li class="chapter-item expanded "><a href="matrices.html"><strong aria-hidden="true">2.</strong> Matrices</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="matrices_operaciones.html"><strong aria-hidden="true">2.1.</strong> Operaciones</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="1_vectores.html" class="active"><strong aria-hidden="true">1.</strong> Vectores y Matrices</a></li><li class="chapter-item expanded "><a href="2_matrices.html"><strong aria-hidden="true">2.</strong> Matrices</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="3_matrices_operaciones.html"><strong aria-hidden="true">2.1.</strong> Operaciones</a></li><li class="chapter-item expanded "><a href="4_producto_matricial.html"><strong aria-hidden="true">2.2.</strong> Producto Matricial</a></li><li class="chapter-item expanded "><a href="5_matriz_combinacion_lineal.html"><strong aria-hidden="true">2.3.</strong> Combinacion Lineal</a></li><li class="chapter-item expanded "><a href="6_producto_bloques.html"><strong aria-hidden="true">2.4.</strong> Producto por bloques</a></li><li class="chapter-item expanded "><a href="7_matriz_comutativa.html"><strong aria-hidden="true">2.5.</strong> Matriz Conmutativa</a></li><li class="chapter-item expanded "><a href="8_notacion_sumatoria.html"><strong aria-hidden="true">2.6.</strong> Notación Sumatoria</a></li></ol></li><li class="chapter-item expanded "><a href="about.html"><strong aria-hidden="true">3.</strong> Acerca este proyecto</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -170,7 +170,7 @@
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
 
-                            <a rel="next" href="matrices.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="2_matrices.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -181,29 +181,13 @@
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
 
-                    <a rel="next" href="matrices.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="2_matrices.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
 
         </div>
 
-        <!-- Livereload script (if served using the cli tool) -->
-        <script type="text/javascript">
-            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
-            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
-            const socket = new WebSocket(wsAddress);
-            socket.onmessage = function (event) {
-                if (event.data === "reload") {
-                    socket.close();
-                    location.reload();
-                }
-            };
-
-            window.onbeforeunload = function() {
-                socket.close();
-            }
-        </script>
 
 
 

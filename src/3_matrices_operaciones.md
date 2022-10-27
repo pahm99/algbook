@@ -117,7 +117,7 @@ A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
-& 
+
 B = \begin{bmatrix}
 4 & 5 & 6 \\
 1 & 2 & 3
@@ -194,12 +194,12 @@ A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
-& 
+\space
 B = \begin{bmatrix}
 4 & 5 & 6 \\
 1 & 2 & 3
 \end{bmatrix}
-&
+
 C = \begin{bmatrix}
 2 & 3 & 4 \\
 5 & 6 & 1
@@ -256,12 +256,12 @@ A = \begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
-& 
+
 B = \begin{bmatrix}
 4 & 5 & 6 \\
 1 & 2 & 3
 \end{bmatrix}
-&
+
 \alpha = 2
 $$
 
