@@ -119,16 +119,4 @@ b_{n}\\
 
 A todo sistema cuyas $b_i = 0$ se le conoce como sistema homogéneo.
 
-## Teorema.
-
-Si $x_1$ y $x_2$ son soluciones al sistema no homogéneo
-$$
-Ax = b
-$$
-Entonces su diferencia $x_1 - x_2$ es una solución al sistema homogéneo relacionado. 
-$$
-Ax = 0
-$$
-
-
 
