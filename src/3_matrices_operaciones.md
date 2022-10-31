@@ -25,7 +25,7 @@ La matrices se pueden multiplicar ya sea por un [escalar](./vectores.md#escalar)
 
  ### Multiplicación por un Escalar
 
-si $B=(a_{ij})$ es un matriz $m \times n$ y si $\alpha$ es un  [escalar](./vectores.md#escalar), entonces la multiplicacion esta dada por 
+si $B=(b_{ij})$ es un matriz $m \times n$ y si $\alpha$ es un  [escalar](./vectores.md#escalar), entonces la multiplicacion esta dada por 
 $$
 \alpha B = (\alpha b_{ij}) = 
 \begin{bmatrix}
@@ -57,7 +57,7 @@ $$
 
 $$
 \\
-A + 1 = \begin{bmatrix}
+A + 0 = \begin{bmatrix}
 1 + 0 & 2 + 0 & 3 + 0 \\
 4 + 0 & 5 + 0 & 6 + 0
 \end{bmatrix} =
@@ -126,7 +126,7 @@ $$
 
 $$
 A + B = 
-A = \begin{bmatrix}
+\begin{bmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6
 \end{bmatrix}
